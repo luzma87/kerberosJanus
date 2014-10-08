@@ -5,7 +5,7 @@ grails.project.target.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 grails.project.dependency.resolution = {
-    grails.project.mavenCache = "C:\\Users\\svt\\Documents\\GitHub\\happy"
+    //grails.project.mavenCache = "C:\\Users\\svt\\Documents\\GitHub\\janus"
     // inherit Grails' default dependencies
     inherits("global") {
         // uncomment to disable ehcache
@@ -32,7 +32,7 @@ grails.project.dependency.resolution = {
                 ":rest-client-builder:1.0.3") {
 
         }
-        compile ":hibernate:2.1.5" // or ":hibernate4:4.1.11.6"
+        compile ":hibernate:2.1.1" // or ":hibernate4:4.1.11.6"
 
     }
 }
